@@ -1,0 +1,25 @@
+{
+  "name": "vframe",
+  "version": "1.0.0",
+  "description": "vframe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarunathan/vframe.git"
+  },
+  "keywords": [
+    "vframe"
+  ],
+  "author": "sarunathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarunathan/vframe/issues"
+  },
+  "homepage": "https://github.com/sarunathan/vframe#readme",
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1"
+  }
+}
