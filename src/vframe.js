@@ -17,7 +17,7 @@ const storeData = new store();
 //}) 
 
 
-class vframe{
+export default class vframe{
   pub(obj){
     storeData.set(obj.key,obj.value);
     if(eventBus[obj.key]){
@@ -31,7 +31,7 @@ class vframe{
     }
   }
   sub(obj){
-    moduleSubsMap[obj.moduleId || this.moduleId[]] = obj.key;
+    moduleSubsMap[obj.moduleId || this.moduleId] = obj.key;
     obj.key.forEach((k,v)=>{
       if(eventBus[v]){
         eventBus[v] = [];

@@ -1,13 +1,14 @@
 /** @jsx dom */
-import vframe from "./src/vframe";
-import vframeDom from "./src/vframe-dom";
+import vframe from "./vframe.js";
+import vframeDom from "./vframe-dom.js";
+import {dom} from "./dom.js";
 
 
 class Helloworld extends vframe{
   render(){
-    return <div>
+    return <Div>
       <h1> Hello world </h1>
-    </div>;
+    </Div>;
   }
 }
 
